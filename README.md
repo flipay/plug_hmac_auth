@@ -1,4 +1,4 @@
-# PlugHmacAuth
+# Hmac Authenticator for Plug
 
 **TODO: Add description**
 
