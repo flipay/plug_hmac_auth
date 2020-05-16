@@ -17,6 +17,9 @@ defmodule PlugHmacAuth.MixProject do
       name: @name,
       description: @description,
       docs: [
+        extras: [
+          "README.md"
+        ],
         main: "PlugHmacAuth",
         source_ref: "v#{@version}",
         source_url: "https://github.com/flipay/plug_hmac_auth"
@@ -33,7 +36,8 @@ defmodule PlugHmacAuth.MixProject do
   defp deps do
     [
       {:plug, "~> 1.10"},
-      {:dialyxir, "~> 1.0", only: :dev, runtime: false}
+      {:dialyxir, "~> 1.0", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.22.0", only: :docs}
     ]
   end
 
