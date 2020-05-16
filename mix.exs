@@ -45,7 +45,6 @@ defmodule PlugHmacAuth.MixProject do
     %{
       licenses: ["MIT"],
       maintainers: ["Neo Ho"],
-      organization: ["Flipay"],
       links: %{"GitHub" => "https://github.com/flipay/plug_hmac_auth"}
     }
   end
