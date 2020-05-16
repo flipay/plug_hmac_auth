@@ -1,6 +1,6 @@
 defmodule PlugHmacAuth do
   @moduledoc """
-  `PlugHmacAuth` provides a `HMAC authenticatior` for `Plug`.
+  `PlugHmacAuth` provides a `Plug` for `HMAC authentication`.
   """
 
   @behaviour Plug
