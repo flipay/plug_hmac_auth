@@ -37,7 +37,7 @@ defmodule PlugHmacAuth.MixProject do
     [
       {:plug, "~> 1.10"},
       {:dialyxir, "~> 1.0", only: :dev, runtime: false},
-      {:ex_doc, "~> 0.22.0", only: :docs}
+      {:ex_doc, "~> 0.22.0", only: :dev, runtime: false}
     ]
   end
 
