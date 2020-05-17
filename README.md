@@ -1,5 +1,9 @@
 # HMAC Authentication Plug
 
+![Elixir CI](https://github.com/flipay/plug_hmac_auth/workflows/Elixir%20CI/badge.svg)
+[![Hex.pm](https://img.shields.io/hexpm/v/plug_hmac_auth.svg)](https://hex.pm/packages/plug_hmac_auth)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+
 [Plug](https://hex.pm/packages/plug) support for [HMAC](https://en.wikipedia.org/wiki/HMAC) authentication. This is used for authentication between server sides.
 
 ![plug_hmac_auth](https://user-images.githubusercontent.com/13026209/82148208-180c1380-987d-11ea-9087-96b9110c0675.png)
