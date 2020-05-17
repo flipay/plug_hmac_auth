@@ -2,12 +2,12 @@ name: Elixir CI
 
 on:
   push:
-    branches: [master, develop]
+    branches: [master]
   pull_request:
     branches: [master]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,8 +15,8 @@ jobs:
       - name: Setup elixir
         uses: actions/setup-elixir@v1
         with:
-          elixir-version: 1.10.3 # Define the elixir version [required]
-          otp-version: 22.3 # Define the OTP version [required]
+          elixir-version: 1.10.3
+          otp-version: 22.3
       - name: Install Dependencies
         run: mix deps.get
       - name: Run Tests
