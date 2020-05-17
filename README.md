@@ -2,7 +2,7 @@
 
 [Plug](https://hex.pm/packages/plug) support for [HMAC](https://en.wikipedia.org/wiki/HMAC) authentication. This is used for authentication between server sides.
 
-![plug_hmac_auth](https://user-images.githubusercontent.com/13026209/82128415-46d6ab00-97e5-11ea-8c92-89f88d726b9a.png)
+![plug_hmac_auth](https://user-images.githubusercontent.com/13026209/82148208-180c1380-987d-11ea-9087-96b9110c0675.png)
 
 ## Installation
 
